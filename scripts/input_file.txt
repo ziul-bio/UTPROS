@@ -1,0 +1,1 @@
+stability	/stor/work/Wilke/luiz/tail_stability/data/tail_stability_metadata.csv	/stor/work/Wilke/luiz/tail_stability/embeddings/tail_stability_esm2_15B_mean/	/stor/work/Wilke/luiz/tail_stability/results/res_reg_tail_stability_LR.csv
