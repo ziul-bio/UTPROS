@@ -4,12 +4,9 @@
 # This source code is licensed under the MIT license found in the
 # LICENSE file in the root directory of this source tree.
 
-#python scripts/extract_all_layers.py esm1v_t33_650M_UR90S_1 data/Peptide_data_v04_PG1.fasta embeddings/esm1v_650M_PG1_v04 --include per_tok mean
-
-#python scripts/extract_all_layers.py esm1b_t33_650M_UR50S data/Peptide_data_v04_PG1.fasta embeddings/solubility_esm1b --include mean
-#python scripts/extract_all_layers.py esm1b_t33_650M_UR50S data/Peptide_data_v04_PG1.fasta embeddings/solubility_esm1b --include per_tok
-
-#python scripts/extract_all_layers.py esm2_t48_15B_UR50D data/Peptide_data_v04_PG1.fasta embeddings/P62593_esm2_15B_mean --include mean
+#python scripts/extract_all_layers.py esm2_t30_150M_UR50D data/Peptide_data_v04_PG1.fasta embeddings/data_esm2_150M_mean --include mean
+#python scripts/extract_all_layers.py esm2_t33_650M_UR50D data/Peptide_data_v04_PG1.fasta embeddings/data_esm2_650M_mean --include per_tok
+#python scripts/extract_all_layers.py esm2_t48_15B_UR50D data/Peptide_data_v04_PG1.fasta embeddings/data_esm2_15B_mean --include mean
 
 
 import torch
